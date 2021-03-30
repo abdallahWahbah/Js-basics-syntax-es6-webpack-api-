@@ -1,0 +1,15 @@
+{
+    "presets": [ // the actual code that applies the transformation from es6 to es5
+        [
+            "env", // environment
+            {
+                "targets": {
+                    "browsers": [
+                        "last 5 versions",
+                        "ie >= 8"
+                    ]
+                }
+            }
+        ]
+    ]
+}
